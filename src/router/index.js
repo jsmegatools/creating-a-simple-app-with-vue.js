@@ -7,7 +7,7 @@ Vue.use(Router)
 
 export default new Router({
   routes: [
-    { path: '/tv_show', component: TVShow },
+    { path: '/show/:id', component: TVShow },
     { path: '/', component: TVShowsList }
   ]
 })
