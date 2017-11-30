@@ -1,5 +1,8 @@
 <template>
   <div class="tv_show">
+    <router-link v-bind:to="`/`">
+      Home
+    </router-link>
     <div>{{ show.name }}</div>
     <img v-bind:src="`static/${show.image}`" />
     <h1>Reviews</h1>
